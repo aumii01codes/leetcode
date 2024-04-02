@@ -1,4 +1,4 @@
-//java
+//Palindrome number
 
 class Solution {
     public boolean isPalindrome(int x) {

@@ -1,4 +1,4 @@
-#python
+#Remove element
 
 class Solution(object):
     def removeElement(self, nums, val):
@@ -9,5 +9,4 @@ class Solution(object):
         """
         while val in nums:
             nums.remove(val)
-
         return len(nums)
