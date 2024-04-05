@@ -5,4 +5,4 @@ from Users
 inner join Register
 on Register.user_id = Users.user_id
 group by contest_id
-order by percentage desc, contest_id asc
+order by percentage desc, contest_id asc;
